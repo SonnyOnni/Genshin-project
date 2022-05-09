@@ -1,0 +1,167 @@
+#header {
+  padding: 30px;
+}
+
+#header .header-theme {
+  background-color: #B4BCEF;
+  border-radius: 5px;
+  padding: 9px 14px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+#header .header-theme .navbar {
+  display: none;
+}
+
+#header .header-theme .mobile-version-menu {
+  display: none;
+}
+
+#header .header-theme .menu-items-container .menu-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  gap: 30px;
+  padding-left: 0;
+}
+
+#header .header-theme .menu-items-container .menu-items .menu-item {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 25px;
+  color: white;
+}
+
+#header .header-theme .search-button-container {
+  position: relative;
+}
+
+#header .header-theme .search-button-container .search-button-space {
+  width: 300px;
+  height: 37px;
+  padding: 5px 10px;
+  background: #FFFFFF;
+  border: 1px solid rgba(93, 60, 187, 0.38);
+  border-radius: 10px;
+}
+
+#header .header-theme .search-button-container input::-webkit-input-placeholder {
+  font-size: 18px;
+}
+
+#header .header-theme .search-button-container input:-ms-input-placeholder {
+  font-size: 18px;
+}
+
+#header .header-theme .search-button-container input::-ms-input-placeholder {
+  font-size: 18px;
+}
+
+#header .header-theme .search-button-container input::placeholder {
+  font-size: 18px;
+}
+
+#header .header-theme .search-button-container .search-button {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+
+/* Laptop version */
+@media (max-width: 1300px) {
+  #header .header-theme .navbar {
+    display: none;
+  }
+  #header .header-theme .menu-items-container .menu-items {
+    gap: 20px;
+  }
+  #header .header-theme .menu-items-container .menu-items .menu-item {
+    font-size: 16px;
+  }
+  #header .header-theme .search-button-container .search-button-space {
+    max-width: 250px;
+    min-width: 100px;
+  }
+  #header .header-theme .search-button-container input::-webkit-input-placeholder {
+    font-size: 16px;
+  }
+  #header .header-theme .search-button-container input:-ms-input-placeholder {
+    font-size: 16px;
+  }
+  #header .header-theme .search-button-container input::-ms-input-placeholder {
+    font-size: 16px;
+  }
+  #header .header-theme .search-button-container input::placeholder {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1110px) {
+  #header .header-theme .navbar {
+    display: none;
+  }
+  #header .header-theme .menu-items-container .menu-items {
+    gap: 10px;
+  }
+  #header .header-theme .menu-items-container .menu-items .menu-item {
+    font-size: 14px;
+  }
+  #header .header-theme .search-button-container .search-button-space {
+    max-width: 180px;
+  }
+  #header .header-theme .search-button-container input::-webkit-input-placeholder {
+    font-size: 14px;
+  }
+  #header .header-theme .search-button-container input:-ms-input-placeholder {
+    font-size: 14px;
+  }
+  #header .header-theme .search-button-container input::-ms-input-placeholder {
+    font-size: 14px;
+  }
+  #header .header-theme .search-button-container input::placeholder {
+    font-size: 14px;
+  }
+}
+
+/* Mobile version */
+@media (max-width: 895px) {
+  #header .header-theme {
+    padding: 0;
+  }
+  #header .header-theme .logo {
+    display: none;
+  }
+  #header .header-theme .menu-items-container {
+    display: none;
+  }
+  #header .header-theme .search-button-container {
+    display: none;
+  }
+}
+/*# sourceMappingURL=header.css.map */
