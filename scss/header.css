@@ -152,7 +152,7 @@
 /* Mobile version */
 @media (max-width: 895px) {
   #header {
-    padding: 4px;
+    padding: 5px;
   }
   #header .header-theme {
     padding: 0;
