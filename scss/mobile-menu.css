@@ -104,8 +104,10 @@
     transform: translate(-150%);
     display: flex;
     flex-direction: column;
-    transition: transform 0.5s ease-in-out;
     text-align: center;
+
+    position: relative;
+    z-index: 2;
   }
   
   .navbar .menu-items li {

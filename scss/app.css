@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0 100px;
+}
+
 a {
   text-decoration: none;
 }
@@ -11,5 +16,12 @@ button {
   text-decoration: none;
   background: none;
   border: none;
+}
+
+/* Mobile version */
+@media (max-width: 1300px) {
+  body {
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=app.css.map */
