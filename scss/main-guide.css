@@ -12,7 +12,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 65px;
+  margin-top: 50px;
 }
 
 .guide-list {
@@ -98,6 +98,12 @@
 
 /* Mobile version */
 @media (max-width: 895px) {
+  #main-guide {
+    margin-top: 70px;
+  }
+  #main-guide h2 {
+    padding: 0 20px;
+  }
   .guide-list {
     -ms-grid-columns: (1fr)[2];
         grid-template-columns: repeat(2, 1fr);

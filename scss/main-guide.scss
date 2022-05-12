@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
 
-    margin-top: 65px;
+    margin-top: 50px;
 }
 
 .guide-list {
@@ -59,6 +59,14 @@
 /* Mobile version */ 
 
 @media (max-width: 895px) {
+    #main-guide {
+        margin-top: 70px;
+
+        h2 {
+            padding: 0 20px;
+        }
+    }
+
     .guide-list {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: max-content;
